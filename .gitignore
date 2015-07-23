@@ -1,0 +1,27 @@
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Dependency directory and npm log
+node_modules
+npm-debug.log
+
+# Built package
+/*.tgz
+
+# Project files
+.idea
+*.iml
+
+# Compiled client resources
+/.sass-cache
+/public/stylesheets/
+/public/js/
+
+# Revision file
+config/_revision
+
+# OS X
+.DS_Store
+
+# The .env file is developer local and should never be checked in
+.env

@@ -1,0 +1,41 @@
+{
+  "name": "exp-metricsfeeder",
+  "version": "0.0.1",
+  "description": "Push node.js application metrics to StatsD. Adapted for pushing to a Prometheus StatsD Bridge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "AB Kvällstidningen Expressen",
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/ExpressenAB/exp-metricsfeeder/raw/master/LICENSE"
+  },
+  "dependencies": {
+    "async": "^1.3.0",
+    "lodash": "~3.9.3",
+    "native-dns": "~0.7.0",
+    "node-statsd-client": "~1.0.3",
+    "unix-dgram": "~0.2.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coffee-script": "^1.9.0",
+    "istanbul": "^0.3.15",
+    "jscs": "^1.11.3",
+    "jshint": "^2.6.0",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.1.0",
+    "mocha-cakes": "^0.9.0",
+    "supertest": "~1.0.1",
+    "express": "~4.13.0"
+  },
+  "optionalDependencies": {
+  	"monitr": "~0.0.15"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    ".nvmrc"
+  ]
+}
